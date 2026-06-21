@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    background:white;
+    min-height:100vh;
+    padding:35px;
+}
+
+
+/* Header */
+header{
+    display:flex;
+    align-items:center;
+    gap:60px;
+}
+
+
+.profile{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+
+.profile-icon{
+    width:60px;
+    height:60px;
+    background:#d8d8d8;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+}
+
+
+.profile h2{
+    font-size:20px;
+    font-weight:500;
+}
+
+
+/* Search */
+.search-box input{
+    width:700px;
+    height:55px;
+    padding-left:20px;
+    font-size:20px;
+    border:1px solid #cfcfcf;
+    border-radius:8px;
+}
+
+
+/* Cards */
+.container{
+    margin-top:150px;
+    display:flex;
+    justify-content:space-between;
+}
+
+
+.card{
+    width:380px;
+    height:300px;
+    border:1px solid #bdbdbd;
+    border-radius:8px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:45px;
+    font-weight:bold;
+
+    cursor:pointer;
+}
+
+
+/* Logout Button */
+.logout{
+    position:fixed;
+    right:40px;
+    bottom:35px;
+
+    width:180px;
+    height:70px;
+
+    font-size:25px;
+    background:white;
+    border:1px solid #888;
+    border-radius:10px;
+
+    cursor:pointer;
+}
